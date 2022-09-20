@@ -42,7 +42,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-
 }
 
 .right-button{
@@ -95,8 +94,14 @@ header{
     padding: 10px 16px;
 }
 
-.tit-par-uno {
-    padding-top: 40px;
+.tit-par {
+    padding-top: 35px;
+    font-size: 60px;
+}
+
+.tit-par-cent {
+    text-align: center;
+    padding-top: 35px;
     font-size: 60px;
 }
 
@@ -104,7 +109,78 @@ header{
     float: left;
 }
 
-.par-uno{
+.img-float-right {
+    float: right;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.paragrafo{
     margin-top: 20px;
     font-size: 25px;
+}
+
+.paragrafo-cent{
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+section {
+    margin-top: 200px; 
+}
+
+.background-wave {
+    /* background-image: url(../img/wave.svg); */
+    background-color: lightgray; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.font-h2{
+    background-image: url(../img/stars.svg);
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+}
+
+.mac-button{
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #7289da;
+    border: 0;
+    font-size: 20px;
+    padding: 10px 16px;
+}
+
+.button-flex {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: #23272a;
+}
+
+.purple{
+    color: #616ea5;
+}
+
+.flex-container{
+    display: flex;
+}
+
+h3{
+    padding-top: 70px;
+    font-size: 35px;
+}
+
+.bandiera {
+    width: 30px;
 }
