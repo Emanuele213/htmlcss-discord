@@ -156,6 +156,7 @@ section {
     border: 0;
     font-size: 20px;
     padding: 10px 16px;
+    color: white;
 }
 
 .button-flex {
@@ -168,12 +169,21 @@ footer{
     background-color: #23272a;
 }
 
+.container-footer{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
 .purple{
     color: #616ea5;
 }
 
-.flex-container{
-    display: flex;
+.white{
+    color: white;
 }
 
 h3{
@@ -183,4 +193,37 @@ h3{
 
 .bandiera {
     width: 30px;
+}
+
+.header-footer{
+    display: flex;
+    margin-top: 15px;
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-color: red;
+}
+
+.flex-container{
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-color: yellow;
+    margin-left: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul{
+
+}
+
+.social{
+    padding-top: 20px;
+    display: flex;
+    font-size: 20px;
+    width: 150px;
+    justify-content: space-between;
+    flex-basis: 100%;
+    flex-grow: 1;
+    background-color: orange;
 }
